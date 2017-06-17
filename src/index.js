@@ -9,4 +9,6 @@ import { getInspectorByHref } from './inspectors';
 
 const inspector = getInspectorByHref(window.location.href);
 debug('Running', inspector);
+
+chrome.runtime.sendMessage({ type: 'started' });
 inspector.start();
