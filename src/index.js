@@ -1,5 +1,6 @@
 /*
  * - Consider relative paths
+ * - Run all parsers in README.md code blocks
  * - Open tab next to the current one
  */
 
