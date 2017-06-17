@@ -15,21 +15,21 @@
 
 #### Github
 
-Language   | Supported
----        | ---
-Javascript | ✔
-Vim        | ✔ 
+Language   | Supported | Notes
+---        | ---       | ---
+Javascript | ✔         | `require` and `import` are supported.
+Vim        | ✔         | `vim-plug` and `vundle` are supported.
 
 #### Bitbucket
 
-Language   | Supported
----        | ---
-Javascript | ✖️
-Vim        | ✖️ 
+Language   | Supported | Notes
+---        | ---       | ---
+Javascript | ✖️         |
+Vim        | ✖️         |
 
 #### Gitlab
 
-Language   | Supported
----        | ---
-Javascript | ✖️
-Vim        | ✖️ 
+Language   | Supported | Notes
+---        | ---       | ---
+Javascript | ✖️         |
+Vim        | ✖️         |
