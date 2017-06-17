@@ -8,4 +8,28 @@
   <p>
     Chrome extension that makes simple to browse used libraries in code blocks or files.
   <p>
+  <hr>
 </div>
+
+### Support
+
+#### Github
+
+Language   | Supported
+---        | ---
+Javascript | ✔
+Vim        | ✔ 
+
+#### Bitbucket
+
+Language   | Supported
+---        | ---
+Javascript | ✖️
+Vim        | ✖️ 
+
+#### Gitlab
+
+Language   | Supported
+---        | ---
+Javascript | ✖️
+Vim        | ✖️ 
