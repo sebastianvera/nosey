@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "nosey",
+  "description": "This extension checks for library imports and makes them a link to inspect it in pages like Github, Bitbucket and Gitlab",
+  "version": "1.0",
+  "background": {
+    "scripts": ["./background.js"],
+    "persitent": false
+  },
+  "content_scripts": [{
+    "matches": ["https://github.com/*"],
+    "js": ["./index.js"]
+  }],
+  "permissions": ["tabs"]
+}
