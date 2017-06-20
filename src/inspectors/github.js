@@ -51,6 +51,12 @@ export default class GithubInspector {
           child.innerText.includes(library.name)
         ) {
           child.style.cursor = 'pointer';
+          child.addEventListener('mouseenter', ({ target }) => {
+            target.style.fontWeight = 'bolder';
+          });
+          child.addEventListener('mouseleave', ({ target }) => {
+            target.style.fontWeight = 'normal';
+          });
           child.onclick = goToUrl(library.url);
           break;
         }
