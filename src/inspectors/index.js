@@ -1,3 +1,8 @@
+/*
+ * TODO:
+ * - Add bitbucket inspector
+ * - Add gitlab inspector
+ */
 import GithubInspector from './github';
 const inspectors = [GithubInspector];
 
