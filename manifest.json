@@ -8,7 +8,7 @@
     "persitent": false
   },
   "content_scripts": [{
-    "matches": ["https://github.com/*"],
+    "matches": ["https://github.com/*", "https://www.github.com/*"],
     "js": ["./index.js"]
   }],
   "icons": {
