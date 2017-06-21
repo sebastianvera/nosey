@@ -20,11 +20,11 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       { from: './manifest.json', to: './manifest.json' },
-      { from: './images/logo16.png', to: './logo16.png' },
-      { from: './images/logo24.png', to: './logo24.png' },
-      { from: './images/logo32.png', to: './logo32.png' },
-      { from: './images/logo48.png', to: './logo48.png' },
-      { from: './images/logo128.png', to: './logo128.png' },
+      { from: './assets/logo16.png', to: './logo16.png' },
+      { from: './assets/logo24.png', to: './logo24.png' },
+      { from: './assets/logo32.png', to: './logo32.png' },
+      { from: './assets/logo48.png', to: './logo48.png' },
+      { from: './assets/logo128.png', to: './logo128.png' },
     ]),
     new webpack.DefinePlugin({
       'process.env': {
