@@ -27,3 +27,5 @@ Elixir     | ✖️         |
 
 - Add support for bitbucket
 - Add support for gitlab
+- Add parsers for ruby
+- Add parsers for elixir
