@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "nosey",
   "description": "Extension to browse libraries/plugins on github's files source code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "background": {
     "scripts": ["./background.js"],
     "persitent": false
