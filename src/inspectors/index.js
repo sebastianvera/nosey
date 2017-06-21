@@ -3,7 +3,7 @@
  * - Add bitbucket inspector
  * - Add gitlab inspector
  */
-import GithubInspector from './github';
+import GithubInspector from './github/index';
 const inspectors = [GithubInspector];
 
 export const getInspectorByHref = href => {

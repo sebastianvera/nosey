@@ -19,17 +19,9 @@ Language   | Supported | Notes
 ---        | ---       | ---
 Javascript | ✔         | `require` and `import` are supported.
 Vim        | ✔         | `vim-plug` and `vundle` are supported.
+Go         | ✖️         | `single`, `multiline` and `named` imports.
 
-#### Bitbucket
+### TODO
 
-Language   | Supported | Notes
----        | ---       | ---
-Javascript | ✖️         |
-Vim        | ✖️         |
-
-#### Gitlab
-
-Language   | Supported | Notes
----        | ---       | ---
-Javascript | ✖️         |
-Vim        | ✖️         |
+- Add support for bitbucket
+- Add support for gitlab
