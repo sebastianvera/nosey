@@ -11,6 +11,14 @@
   <hr>
 </div>
 
+### Demo
+
+![js1](https://github.com/sebastianvera/nosey/blob/master/assets/js1.gif)
+![js2](https://github.com/sebastianvera/nosey/blob/master/assets/js2.gif)
+![go1](https://github.com/sebastianvera/nosey/blob/master/assets/go1.gif)
+![go2](https://github.com/sebastianvera/nosey/blob/master/assets/go2.gif)
+![vim1](https://github.com/sebastianvera/nosey/blob/master/assets/vim1.gif)
+
 ### Motivation
 
 It's very common for me to google for libraries when I'm surfing through source code on github, and since I'm lazy,
