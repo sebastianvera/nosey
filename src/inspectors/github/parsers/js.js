@@ -3,7 +3,7 @@ import { debug } from '../../../utils';
 const npmUrl = 'https://www.npmjs.com/package';
 const nodeUrl = 'https://nodejs.org/api';
 const regexes = [
-  /require\(["']([\w-\/\.]+)["']\)/,
+  /=?\s*require\(["']([\w-\/\.]+)["']\)/,
   /(?:import)?.*\sfrom\s+["']([\w-\/\.]+)["']/,
 ];
 
