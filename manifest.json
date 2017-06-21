@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "nosey",
-  "description": "This extension checks for libraries imports and transforms them to a link, this way it's easy to surf code and discover/inspect new libraries when browsing source code on Github",
-  "version": "1.0",
+  "description": "Extension to browse libraries/plugins on github's files source code",
+  "version": "1.0.1",
   "background": {
     "scripts": ["./background.js"],
     "persitent": false
