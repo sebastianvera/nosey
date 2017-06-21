@@ -38,6 +38,8 @@ Elixir     | ✖️         |
 
 ### TODO
 
+- Add popover to manually choose a parser.
+- Add `golang` support to choose between opening either godoc or repository url. 
 - Add support for bitbucket
 - Add support for gitlab
 - Add parsers for ruby
