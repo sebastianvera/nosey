@@ -30,7 +30,7 @@ This currently **only works** for github.
 
 Language   | Supported | Notes
 ---        | ---       | ---
-Javascript | ✔         | `require` and `import` are supported.
+Javascript | ✔         | Supports `require`, `import` syntax and typescript.
 Vim        | ✔         | Works only for `*.vim` files. `vim-plug` and `vundle` are supported.
 Go         | ✔         | `single`, `grouped`, `named`, `.` and `_` imports are supported.
 Ruby       | ✖️         |
