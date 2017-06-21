@@ -26,7 +26,7 @@ I made this extension.
 
 ### Support
 
-#### Github
+This currently **only works** for github.
 
 Language   | Supported | Notes
 ---        | ---       | ---
