@@ -19,7 +19,9 @@ Language   | Supported | Notes
 ---        | ---       | ---
 Javascript | ✔         | `require` and `import` are supported.
 Vim        | ✔         | `vim-plug` and `vundle` are supported.
-Go         | ✖️         | `single`, `multiline` and `named` imports.
+Go         | ✔         | `single`, `grouped`, `named`, `.` and `_` imports are supported.
+Ruby       | ✖️         |
+Elixir     | ✖️         |
 
 ### TODO
 
