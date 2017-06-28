@@ -6,7 +6,7 @@
   <br>
   <hr>
   <p>
-    Chrome extension that makes simple to browse used libraries/plugins in source code files.
+    <a href="https://chrome.google.com/webstore/detail/nosey/aahegjigldllknbphcibmhcjehnfjoga">Chrome extension</a> that makes simple to browse used libraries/plugins in source code files.
   <p>
   <hr>
 </div>
