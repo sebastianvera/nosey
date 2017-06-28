@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/sebastianvera/nosey">
+  <a href="https://chrome.google.com/webstore/detail/nosey/aahegjigldllknbphcibmhcjehnfjoga">
     <img width="200" heigth="200" src="https://github.com/sebastianvera/nosey/raw/master/assets/noseysquare.png">
   </a>
   <br>
