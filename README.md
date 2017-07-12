@@ -1,12 +1,12 @@
 <div align="center">
-  <a href="https://github.com/sebastianvera/nosey">
+  <a href="https://chrome.google.com/webstore/detail/nosey/aahegjigldllknbphcibmhcjehnfjoga">
     <img width="200" heigth="200" src="https://github.com/sebastianvera/nosey/raw/master/assets/noseysquare.png">
   </a>
   <br>
   <br>
   <hr>
   <p>
-    Chrome extension that makes simple to browse used libraries/plugins in source code files.
+    <a href="https://chrome.google.com/webstore/detail/nosey/aahegjigldllknbphcibmhcjehnfjoga">Chrome extension</a> that makes simple to browse used libraries/plugins in source code files.
   <p>
   <hr>
 </div>
