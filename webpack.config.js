@@ -2,6 +2,9 @@ const path = require('path');
 const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+
+const buildDir = 'dist';
 
 module.exports = {
   bail: true,
@@ -12,9 +15,10 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, buildDir),
   },
   plugins: [
+    new CleanWebpackPlugin([buildDir]),
     new CopyWebpackPlugin([
       { from: './manifest.json', to: './manifest.json' },
       { from: './assets/logo16.png', to: './logo16.png' },
