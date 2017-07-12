@@ -1,12 +1,14 @@
 const path = require('path');
 const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   bail: true,
   entry: {
-    index: './src/index.js',
-    background: './src/background.js',
+    background: path.join(__dirname, 'src', 'background.js'),
+    popup: path.join(__dirname, 'src', 'popup.js'),
+    index: path.join(__dirname, 'src', 'index.js'),
   },
   output: {
     filename: '[name].js',
@@ -27,6 +29,11 @@ module.exports = {
         NODE_ENV: JSON.stringify('dev'),
         DEBUG: JSON.stringify(true),
       },
+    }),
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname, 'src', 'popup.html'),
+      filename: 'popup.html',
+      chunks: ['popup'],
     }),
   ],
 };

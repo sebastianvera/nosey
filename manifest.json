@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "nosey",
   "description": "Extension to browse libraries/plugins on github while surfing through source code",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "background": {
     "scripts": ["./background.js"],
     "persitent": false
@@ -21,7 +21,8 @@
       "16": "./logo16.png",
       "24": "./logo24.png",
       "32": "./logo32.png"
-    }
+    },
+    "default_popup": "./popup.html"
   },
   "permissions": ["tabs"]
 }

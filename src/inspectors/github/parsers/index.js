@@ -7,6 +7,7 @@ export const parsersByExtension = {
   go,
   js,
   ts: js,
+  vimrc: vim,
 };
 
 export default parsersByExtension;

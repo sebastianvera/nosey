@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>nosey</title>
+    <style>
+      body {
+        min-width: 350px;
+        min-height: 40px;
+      }
+      #parsers, #loading {
+        display: inline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3 class="title">Choose your parser</h3>
+    <p class="description">
+      If the imports are not being highlighted,
+      you can chose to parse the code manually.
+    </p>
+    <div class="bottom">
+      <select id="parsers" name="language">
+        <option value="none" selected>None</option>
+        <option value="go">Go</option>
+        <option value="js">Javascript/Typescript</option>
+        <option value="vim">VimL</option>
+      </select>
+      <h6 id="loading"></h6>
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>
